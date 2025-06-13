@@ -1,0 +1,10 @@
+.link {
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--white-primary-color);
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: var(--brand-color)
+}

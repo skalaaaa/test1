@@ -1,0 +1,59 @@
+.cookers-section{
+
+    &__title {
+        font-size: 32px;
+        @media screen and (min-width:$bp-tablet){
+            font-size: 64px;
+              position: relative;
+             margin: 0 auto 80px;}
+       
+            &::before,
+            &::after {
+display: none;
+                @media screen and (min-width:$bp-desktop){
+                    position: absolute;
+                    bottom: 24px;
+                    display: block;
+                    width: 352px;
+                    height: 0px;
+                    border: 2px solid var(--decor-color-white);
+                    content: '';}
+                }  
+            &::before{
+                      left: 0px;
+                                }
+                
+            &::after {
+                       right: 0px;
+                                }}
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px 30px;
+        flex-wrap: wrap;
+   
+        @media screen and (min-width:$bp-tablet) {
+        flex-direction: row;
+        }
+             
+        }
+  &__item {
+   
+    @media screen and (min-width:$bp-tablet) {
+           flex-basis: calc((100% - 30px) / 2);
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

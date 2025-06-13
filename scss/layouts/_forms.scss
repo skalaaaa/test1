@@ -1,0 +1,49 @@
+.input{
+    position: relative;
+
+    &__label {
+            display: block;   }
+
+    &__control{
+    
+                padding: 16px 42px;
+                width: 100%;
+                border: 1px solid var(--secondary-brown);
+                border-radius: 8px;
+                background-color: transparent;
+                font-size: 16px;
+                line-height: 1.17;       
+    &:focus {
+            border-color: var(--brand-color);
+            outline: none;   }
+    &::placeholder {
+        color: var(--secondary-brown);
+        font-style: 16px;
+        line-height: 1.17;   }
+
+    &:focus::placeholder {
+        color: var(--dark-primary-color);
+        font-style: 16px;
+        line-height: 1.17;   }    
+
+        }
+}
+
+
+
+
+.form-terms {
+display: none;
+        @media screen and (min-width: $bp-desktop){
+    text-align: center;
+    margin: 24px auto 0 auto;
+    width: 220px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;}
+    
+    &__link {
+            color: var(--dark-primary-color);
+            text-underline-offset: 2px;   }
+}
+
