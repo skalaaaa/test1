@@ -2,7 +2,7 @@
     padding: 32px 0;
     position: relative;
     background-color: var(--dark-primary-color);
-    background-image: url( '/images/background-footer.png');
+    background-image: url( '../images/background-footer.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -19,19 +19,19 @@
         height: 92px;
         bottom: 0;
         right: 0;
-        background-image: url('./images/decor-bread-large-mobile.png');
+        background-image: url('../images/decor-bread-large-mobile.png');
 
         @media screen and (min-width: $bp-tablet) {
             width: 320px;
             height: 180px;
-            background-image: url('./images/decor-bread-large.png');
+            background-image: url('../images/decor-bread-large.png');
         }
     }
 
     &::before {
         width: 112px;
         height: 194px;
-        background-image: url('./images/decor-bread-small-mobile.png');
+        background-image: url('../images/decor-bread-small-mobile.png');
         
 
         @media screen and (min-width: $bp-tablet) {
@@ -39,7 +39,7 @@
             bottom: 0;
             width: 181px;
             height: 124px;
-            background-image: url('./images/decor-bread-small.png');
+            background-image: url('../images/decor-bread-small.png');
             
         }
     }
